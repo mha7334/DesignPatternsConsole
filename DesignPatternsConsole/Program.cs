@@ -1,5 +1,5 @@
 ﻿using System;
-using DesignPatternsConsole.Adapter;
+using DesignPatternsConsole.Observer;
 
 namespace DesignPatternsConsole
 {
@@ -7,22 +7,23 @@ namespace DesignPatternsConsole
     {
         static void Main(string[] args)
         {
-
-            //FactoryTester.Run();
-            //FactoryMethodTester.Run();
-            //AbstractFactoryTester.Run();
-            //BuilderTester.Run();
-            //BuilderRealworldTester.Run();
-            //FluentInterfaceTester.Run();
-            //PrototypeTester.Run();
-            //SingletonTester.Run();
-            //SingletonThreadSafeTester.Run();
-            //DI_PropTester.Run(null);
-            //DI_MethodTester.Run(null);
-            //IocTester.Run(null);
-            //AdapterTester.Run(null);
-            //DecoratorTester.Run(null);
-            //DecoratorRealTester.Run(null);
+            //1) click 'Show All Files in VisualStudio'
+            //2) Then include Pattern/Principle's Folder (One at a time) in the project e.g.
+            //AbstractFactory
+            //Factory
+            //FactoryMethod
+            //Builder
+            //Decorator
+            //ChainOfResp
+            //DI
+            //FluentInterface
+            //Prototype
+            //Singleton
+            //SingletonThreadSafe
+            //Strategy
+            //IoC
+            //Facade
+            //Adapter
             Tester.Run(null);
 
         }

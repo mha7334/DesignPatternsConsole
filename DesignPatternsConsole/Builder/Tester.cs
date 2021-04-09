@@ -4,9 +4,9 @@ using System.Text;
 
 namespace DesignPatternsConsole.Builder
 {
-    public static class BuilderTester
+    public static class Tester
     {
-        public static void Run()
+        public static void Run(string[] args)
         {
             Report report;
             ReportDirector reportDirector = new ReportDirector();

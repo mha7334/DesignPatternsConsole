@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace DesignPatternsConsole.DI_Prop
 {
-    public class DI_MethodTester
+    public class Tester
     {
         public static void Run(string[] args)
         {
