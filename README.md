@@ -17,3 +17,13 @@ DIFFERENT DESIGN PATTERNS/PRINCIPLES IMPLEMENTED IN C#  (NET CORE 3.1)
             //IoC
             //Facade
             //Adapter
+            //Composite
+            //Interpreter
+            //Mediator
+            //Momento
+            //Observer
+            //Proxy
+            //Template
+            //Visitor
+            //Flyweight
+           
