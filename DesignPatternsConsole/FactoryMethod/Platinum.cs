@@ -1,6 +1,6 @@
 ﻿namespace DesignPatternsConsole.FactoryMethod
 {
-    public class Platinum : ICreditCard
+    class Platinum : ICreditCard
     {
         public string GetCardType()
         {

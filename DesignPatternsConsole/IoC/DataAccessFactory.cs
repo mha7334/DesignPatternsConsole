@@ -6,5 +6,10 @@
         {
             return new EmployeeDataAccess();
         }
+
+        public static IGuestDataAccess GetGuestDataAccessObj()
+        {
+            return new GuestDataAccess();
+        }
     }
 }

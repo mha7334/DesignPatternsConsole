@@ -1,5 +1,5 @@
 ﻿using System;
-using DesignPatternsConsole.Observer;
+using DesignPatternsConsole.Facade;
 
 namespace DesignPatternsConsole
 {
@@ -24,7 +24,7 @@ namespace DesignPatternsConsole
             //IoC
             //Facade
             //Adapter
-            Tester.Run(null);
+            Tester.Run();
 
         }
     }

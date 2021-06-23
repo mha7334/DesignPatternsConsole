@@ -15,5 +15,17 @@ namespace DesignPatternsConsole.Ioc
         }
     }
 
-    
+    public class GuestBusinessLogic
+    {
+        readonly IGuestDataAccess _guestDataAccess;
+        public GuestBusinessLogic(IGuestDataAccess dataAccess)
+        {
+            _guestDataAccess = dataAccess;
+        }
+        public Guest GetGuestDetails(int id)
+        {
+            return _guestDataAccess.GetGuestDetails(id);
+        }
+    }
+
 }

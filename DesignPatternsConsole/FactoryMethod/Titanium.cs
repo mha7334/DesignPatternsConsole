@@ -1,6 +1,6 @@
 ﻿namespace DesignPatternsConsole.FactoryMethod
 {
-    public class Titanium : ICreditCard
+    class Titanium : ICreditCard
     {
         public string GetCardType()
         {

@@ -24,9 +24,10 @@
     <Compile Remove="FluentInterface\**" />
     <Compile Remove="Flyweight\**" />
     <Compile Remove="Interpreter\**" />
-    <Compile Remove="IoC\**" />
+    <Compile Remove="Mediator1\**" />
     <Compile Remove="Mediator\**" />
     <Compile Remove="Momento\**" />
+    <Compile Remove="Observer\**" />
     <Compile Remove="Prototype\**" />
     <Compile Remove="Proxy\**" />
     <Compile Remove="SingletonThreadSafe\**" />
@@ -50,9 +51,10 @@
     <EmbeddedResource Remove="FluentInterface\**" />
     <EmbeddedResource Remove="Flyweight\**" />
     <EmbeddedResource Remove="Interpreter\**" />
-    <EmbeddedResource Remove="IoC\**" />
+    <EmbeddedResource Remove="Mediator1\**" />
     <EmbeddedResource Remove="Mediator\**" />
     <EmbeddedResource Remove="Momento\**" />
+    <EmbeddedResource Remove="Observer\**" />
     <EmbeddedResource Remove="Prototype\**" />
     <EmbeddedResource Remove="Proxy\**" />
     <EmbeddedResource Remove="SingletonThreadSafe\**" />
@@ -76,9 +78,10 @@
     <None Remove="FluentInterface\**" />
     <None Remove="Flyweight\**" />
     <None Remove="Interpreter\**" />
-    <None Remove="IoC\**" />
+    <None Remove="Mediator1\**" />
     <None Remove="Mediator\**" />
     <None Remove="Momento\**" />
+    <None Remove="Observer\**" />
     <None Remove="Prototype\**" />
     <None Remove="Proxy\**" />
     <None Remove="SingletonThreadSafe\**" />
