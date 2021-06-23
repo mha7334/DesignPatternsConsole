@@ -6,7 +6,8 @@ namespace DesignPatternsConsole.Ioc
     {
         public static void Run(string[] args)
         {
-            EmployeeBusinessLogic BL = new EmployeeBusinessLogic(new EmployeeDataAccess());
+            
+            EmployeeBusinessLogic BL = new EmployeeBusinessLogic(DataAccessFactory.GetEmployeeDataAccessObj());
             Employee employeeDetails = BL.GetEmployeeDetails(1);
             Console.WriteLine();
             Console.WriteLine("Employee Details:");
@@ -14,6 +15,8 @@ namespace DesignPatternsConsole.Ioc
                 employeeDetails.ID, employeeDetails.Name, employeeDetails.Department,
                 employeeDetails.Salary);
             Console.WriteLine("Press any key to exist.");
+
+            GuestBusinessLogic gBL = new GuestBusinessLogic(DataAccessFactory.GetGuestDataAccessObj());
 
         }
     }
