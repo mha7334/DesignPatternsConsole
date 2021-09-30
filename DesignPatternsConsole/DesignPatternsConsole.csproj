@@ -24,6 +24,7 @@
     <Compile Remove="FluentInterface\**" />
     <Compile Remove="Flyweight\**" />
     <Compile Remove="Interpreter\**" />
+    <Compile Remove="IoC\**" />
     <Compile Remove="Mediator1\**" />
     <Compile Remove="Mediator\**" />
     <Compile Remove="Momento\**" />
@@ -51,6 +52,7 @@
     <EmbeddedResource Remove="FluentInterface\**" />
     <EmbeddedResource Remove="Flyweight\**" />
     <EmbeddedResource Remove="Interpreter\**" />
+    <EmbeddedResource Remove="IoC\**" />
     <EmbeddedResource Remove="Mediator1\**" />
     <EmbeddedResource Remove="Mediator\**" />
     <EmbeddedResource Remove="Momento\**" />
@@ -78,6 +80,7 @@
     <None Remove="FluentInterface\**" />
     <None Remove="Flyweight\**" />
     <None Remove="Interpreter\**" />
+    <None Remove="IoC\**" />
     <None Remove="Mediator1\**" />
     <None Remove="Mediator\**" />
     <None Remove="Momento\**" />
@@ -89,6 +92,10 @@
     <None Remove="Strategy\**" />
     <None Remove="Template\**" />
     <None Remove="Visitor\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Azure.Kusto.Data" Version="9.3.1" />
   </ItemGroup>
 
 </Project>

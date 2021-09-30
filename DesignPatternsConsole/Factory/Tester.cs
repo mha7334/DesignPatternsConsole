@@ -4,7 +4,7 @@ using System.Text;
 
 namespace DesignPatternsConsole.Factory
 {
-    public static class FactoryTester
+    public static class Tester
     {
         public  static void  Run(CreditCardType cardType = CreditCardType.MoneyBack)
         {

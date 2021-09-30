@@ -4,7 +4,7 @@ using System.Text;
 
 namespace DesignPatternsConsole.AbstractFactory
 {
-    public static class AbstractFactoryTester
+    public static class Tester
     {
         public static void Run()
         {

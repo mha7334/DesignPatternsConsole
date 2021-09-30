@@ -2,6 +2,9 @@
 {
     class Platinum : ICreditCard
     {
+        
+
+        
         public string GetCardType()
         {
             return "Platinum Plus";
@@ -15,4 +18,5 @@
             return 2000;
         }
     }
+
 }
