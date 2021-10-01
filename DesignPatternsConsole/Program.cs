@@ -49,10 +49,10 @@ namespace DesignPatternsConsole
 
             SqlConnection cnn;
             //var connetionString =
-            //    @"Database=VSU;Data Source=vsu-db,1433;User Id=VSUAdmin;Password=Bl98hsz9bxxx; Connect Timeout=900;Max Pool Size=500";
+            //    @"connectionstring";
 
             var connetionString =
-                @"Server=tcp:sqlserver-d-vps-plantdesign.database.windows.net,1433;Initial Catalog=VSC;Persist Security Info=False;User ID=vsclogin;Password=pa$$word321xxxx;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
+                @"conntectionstring";
 
             cnn = new SqlConnection(connetionString);
             cnn.Open();
