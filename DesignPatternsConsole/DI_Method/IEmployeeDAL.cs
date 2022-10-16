@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace DesignPatternsConsole.DI_Prop
+namespace DesignPatternsConsole.DI_Method
 {
     public interface IEmployeeDAL
     {

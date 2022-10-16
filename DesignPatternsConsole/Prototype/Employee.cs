@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using DesignPatternsConsole.PrototypeShallow;
-
-namespace DesignPatternsConsole.Prototype
+﻿namespace DesignPatternsConsole.Prototype
 {
     public class Employee
     {

@@ -1,7 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 
-namespace DesignPatternsConsole.DI_Prop
+namespace DesignPatternsConsole.DI_Method
 {
     public class EmployeeBL
     {

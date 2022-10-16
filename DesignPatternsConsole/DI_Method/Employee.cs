@@ -1,4 +1,4 @@
-﻿namespace DesignPatternsConsole.DI_Prop
+﻿namespace DesignPatternsConsole.DI_Method
 {
     public class Employee
     {

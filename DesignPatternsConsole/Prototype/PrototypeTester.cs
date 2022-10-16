@@ -1,10 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using DesignPatternsConsole.Prototype;
-using DesignPatternsConsole.PrototypeShallow;
 
 namespace DesignPatternsConsole.Prototype
+{
     public static class PrototypeTester
     {
         public static void Run()

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace DesignPatternsConsole.Facade
+namespace DesignPatternsConsole.Decorator
 {
     public class Tester
     {

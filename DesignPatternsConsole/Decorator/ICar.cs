@@ -1,4 +1,4 @@
-﻿namespace DesignPatternsConsole.Facade
+﻿namespace DesignPatternsConsole.Decorator
 {
     public interface ICar
     {
