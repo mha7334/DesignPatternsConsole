@@ -1,0 +1,1 @@
+call kubectl logs %1 -n cloudapps %2

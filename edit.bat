@@ -1,0 +1,1 @@
+call kubectl edit deploy %1 -n cloudapps
